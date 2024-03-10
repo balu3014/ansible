@@ -1,5 +1,5 @@
 ---
--name: Reboot nginx
+name: Reboot nginx
 host: node
 task:
 - name: Reboot machine and send a message
