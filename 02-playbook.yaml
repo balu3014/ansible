@@ -1,5 +1,5 @@
--name:ping playbook
-host:
+-name: ping playbook
+host: cart
 task:
-- name:ping the server
+- name: ping the server
   ansible.builtin.ping:
