@@ -1,6 +1,6 @@
 ---
 name: Reboot nginx
-host: node
+hosts: web
 task:
 - name: Reboot machine and send a message
   ansible.builtin.reboot:
